@@ -1,0 +1,109 @@
+body,
+html {
+    height: 100%;
+    /* font-family: "Inconsolata", sans-serif; */
+    /* font-family: 'Odibee Sans', cursive; */
+    font-family: 'Anton', sans-serif;
+    font-size: x-large;
+    background-color: #50bda1;
+    color: white;
+}
+
+.h1 {
+    font-size: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Anton', sans-serif;
+    font-size: x-large;
+    /* font-family: 'Odibee Sans', cursive; */
+}
+
+.bgimg {
+    background-position: center;
+    background-size: cover;
+    /* background-image: url("./images/embossed-diamond.png"); */
+    min-height: 75%;
+    /* -webkit-clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%); */
+}
+
+.liteRedColor {
+    background-color: #f18867;
+}
+
+.headerMargin {
+    margin: 3px;
+}
+
+
+/* pic of Hazel */
+
+.displayPic {
+    width: initial;
+    height: 375px;
+    border-radius: 45px;
+    border: 4px solid #65587f;
+    border-bottom: 10px solid #65587f;
+    border-right: 10px solid #65587f;
+    margin-top: 100px;
+}
+
+.bgColor {
+    background-color: #65587f;
+    color: white;
+}
+
+.navBorder {
+    border-bottom: 5px solid #e85f99;
+}
+
+.boxShadow {
+    box-shadow: 3px 4px #e85f99;
+}
+
+.menu {
+    display: none;
+}
+
+
+/* portfolio images styling */
+
+.portPic {
+    background-position: left center;
+    width: 75%;
+    height: auto;
+}
+
+.icon {
+    max-width: 75px;
+    opacity: .5;
+    margin: 20px;
+}
+
+.wrapBot {
+    display: grid;
+}
+
+.footy {
+    border-top: 5px solid #e85f99;
+}
+
+.contactFooty {
+    background-color: #50bda1;
+}
+@media (min-width: 768px) {
+    .carousel-multi-item-2 .col-md-3 {
+    float: left;
+    width: 25%;
+    max-width: 100%; } }
+    
+    .carousel-multi-item-2 .card img {
+    border-radius: 2px; }
